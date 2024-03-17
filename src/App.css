@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body,html {
+  background-color: black;
+
+}
+h1{
+  font-family: 'Madimi One', sans-serif; /* Yedek font olarak sans-serif yazı tipi belirtildi */
+
+}
+.btns{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px, 5px, 5px, 5px;
+  background-color: #2a2a2a;
+  border-radius: 30px;
+  height: 40px;
+  border-color: #2a2a2a;
+  border-style: none;
+  color: #ffffff;
+}
+ul, li {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px;
+}
+.btnsongs{
+
+  width: 100%;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  height: 80px;
+  border-color: #2a2a2a;
+  border-style: none;
+  color: #ffffff;
+}
+
+.songs{
+  width: 64px;
+  height: 64px;
+}
+.btnsonglist {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+.btnsonglist li {
+  flex: 0 0 50%;
+ ;
+  margin: 5px 0;
+}
+.parca > p{
+  color: #5e5e5e;
+}
+.parca{
+
+  padding: 10px;
+}
+.cover{
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+}
+.minicover{
+  width: 96px;
+  height: 96px;
+  border-radius: 5px;
+}
+.calinan{
+  background-color: #5e5e5e;
+  border-radius: 15px;
+  margin: 5px;
+  max-height: 100px;
+}
+.icon {
+  display: flex; /* Allow icons and text to align horizontally */
+  align-items: center; /* Vertically align content in the center */
+  padding: 20px; /* Add some padding around the content */
+  list-style: none; /* Remove default bullet points */
+
+
+}
+
+
+.bottomnav {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+
+  display: flex;
+
+  align-items: center;
+}
+
+.bottomnav > .icon {
+
+  padding: 30px;
+
+
+  outline: none;
+}
